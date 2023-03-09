@@ -22,7 +22,7 @@
 
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+   /* -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#E4E4E4;
     background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
@@ -102,6 +102,18 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
+.centralizar{
+    font-weight: 500;
+    text-align: center;
+    color: #1B1B1B;
+    text-transform: capitalize;
+}
+.centralizar div{
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: antiquewhite;
+}
 
 @media screen and (prefers-color-scheme: dark) {
     body {

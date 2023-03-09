@@ -17,12 +17,13 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/index.css">
         <title>Hello World</title>
     </head>
 
 
-<h1>Editar o Usuário</h1>
+<h1>Cadastrar Usuário</h1>
 
 
 <body>
@@ -34,24 +35,33 @@
     <br><br>
 
     -->
+    <div class="centralizar">
        <!-- cpf -->
-        <label>cpf: </label><br>
+       <div>
+        <label>CPF: </label><br>
+    </div>
         <div>
         <input type="int" name="cpf" placeholder="">
         </div><br><br>
     <!-- nombre -->
-    
+        <div>
         <label>Foto: </label><br>
-    
+    </div>
         <input type="file" name="foto" value=""><br><br>
      <!-- email -->
+     <div>
         <label>Nome: </label><br>
+    </div>
         <input type="text" name="nome" value=""><br><br>
     <!-- idade -->
+    <div>
         <label>idade: </label><br>
+    </div>
         <input type="int" name="idade" value=""><br><br>
     <!-- profissao -->
+    <div>
         <label>profesao: </label><br>
+    </div>
         <input type="text" name="profesao" value=""><br><br>
     <!-- resumen -->
     <!--
@@ -65,12 +75,14 @@
         <textarea type="text" name="resumo" rows="5"></textarea><br><br>
         </label>
         <!-- la forma de hacer un botton  -->
-        <input type="submit" value="Editar Cadastro">
+        <div>
+            <input type="submit" value="Editar Cadastro">
+        </div>
+    </div>
     </form>
+    <a href="http://127.0.0.1:5500/www/index.html">Inicio</a>
 </body>
-<input type="submit" value="Lista">
-<br>
-<br>
-<br>
-<a href="{{route('welcome.welcome')}}">Inicio</a>
+<!--<input type="submit" value="Lista">-->
+
+
 

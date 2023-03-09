@@ -1,0 +1,28 @@
+/*esta es la forma de hacer un boton que parpadea*/
+a{
+    display:block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    color:blueviolet;
+}
+
+input{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-decoration: none;
+}
