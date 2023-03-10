@@ -23,5 +23,8 @@
       "android",
       "browser"
     ]
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }
